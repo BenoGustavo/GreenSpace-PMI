@@ -5,10 +5,10 @@ import diagrams from "../../../public/assets/json/diagrams.json"
 import classDiagram from "../../../Documentation/CLASS_DIAGRAM.png"
 import useCaseDiagram from "../../../Documentation/UC.png"
 import useCaseDescriptionDiagram from "../../../Documentation/DESC_UC.png"
-
+import personasAndStoriesImage from "../../../Documentation/personas_e_historias_icon.png"
 import entityRelationshipDiagramImage from "../../../Documentation/ER_ICON.png"
 
-const listOfDiagramsImg = [classDiagram, useCaseDiagram, useCaseDescriptionDiagram, entityRelationshipDiagramImage]
+const listOfDiagramsImg = [classDiagram, useCaseDiagram, useCaseDescriptionDiagram, entityRelationshipDiagramImage, personasAndStoriesImage]
 
 const diagramsObject = diagrams[0]
 
@@ -16,6 +16,7 @@ const classDiagramURL = diagramsObject["class-diagram"]
 const useCaseDiagramURL = diagramsObject["use-case"]
 const ucDescription = diagramsObject["use-case-descritive"]
 const entityRelationshipDiagram = diagramsObject["entity-relationship"]
+const personasAndStories = diagramsObject["personas-and-stories"]
 
 const DiagramsSection = () => {
     return (
@@ -67,6 +68,17 @@ const DiagramsSection = () => {
                     <a href={entityRelationshipDiagram} target="_blank" rel="noopener noreferrer">
                         <div className="img-container">
                             <img src={listOfDiagramsImg[3]} alt="Diagrama de entidade e relacionamento" />
+                        </div>
+                    </a>
+                </div>
+
+                <div className="diagram">
+                    <div className="title">
+                        <h3>Personas e Historias</h3>
+                    </div>
+                    <a href={personasAndStories} target="_blank" rel="noopener noreferrer">
+                        <div className="img-container">
+                            <img src={listOfDiagramsImg[4]} alt="Documento de personas e historias" />
                         </div>
                     </a>
                 </div>
