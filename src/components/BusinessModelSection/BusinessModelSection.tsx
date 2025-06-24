@@ -1,6 +1,6 @@
 import "./styles.scss";
 
-import BusinessModel from "../../../public/assets/svg/Business_model.svg";
+import BusinessModel from "../../../public/assets/png/BusinessModelCanvasGreenSpace.png";
 
 const BusinessModelSection = () => {
   return (

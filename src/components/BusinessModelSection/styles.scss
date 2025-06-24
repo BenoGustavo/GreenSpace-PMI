@@ -23,13 +23,14 @@
   &__subtitle {
     padding-left: 15px;
     color: var(--dark-charcoal);
+    margin-bottom: 2.5rem;
   }
 
   &__img {
-    padding-top: 2.5rem;
-    max-width: 95%;
-    max-height: 95%;
+    max-width: 100vh;
     margin: 0 auto;
-    /* Center the image horizontally */
+    border-radius: 50px;
+    overflow: hidden;
+    border: 4px solid #153d19;
   }
 }
