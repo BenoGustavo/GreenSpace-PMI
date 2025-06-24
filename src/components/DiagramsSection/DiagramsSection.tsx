@@ -30,11 +30,11 @@ const DiagramsSection = () => {
             <div className="diagrams__container">
                 <div className="diagram">
                     <div className="title">
-                        <h3>Diagrama de Classe</h3>
+                        <h3>Personas e Historias</h3>
                     </div>
-                    <a href={classDiagramURL} target="_blank">
+                    <a href={personasAndStories} target="_blank" rel="noopener noreferrer">
                         <div className="img-container">
-                            <img src={listOfDiagramsImg[0]} alt="Diagrama de Classe" />
+                            <img src={listOfDiagramsImg[4]} alt="Documento de personas e historias" />
                         </div>
                     </a>
                 </div>
@@ -63,22 +63,22 @@ const DiagramsSection = () => {
 
                 <div className="diagram">
                     <div className="title">
-                        <h3>Entidade relacionamento</h3>
+                        <h3>Diagrama de Classe</h3>
                     </div>
-                    <a href={entityRelationshipDiagram} target="_blank" rel="noopener noreferrer">
+                    <a href={classDiagramURL} target="_blank">
                         <div className="img-container">
-                            <img src={listOfDiagramsImg[3]} alt="Diagrama de entidade e relacionamento" />
+                            <img src={listOfDiagramsImg[0]} alt="Diagrama de Classe" />
                         </div>
                     </a>
                 </div>
 
                 <div className="diagram">
                     <div className="title">
-                        <h3>Personas e Historias</h3>
+                        <h3>Entidade relacionamento</h3>
                     </div>
-                    <a href={personasAndStories} target="_blank" rel="noopener noreferrer">
+                    <a href={entityRelationshipDiagram} target="_blank" rel="noopener noreferrer">
                         <div className="img-container">
-                            <img src={listOfDiagramsImg[4]} alt="Documento de personas e historias" />
+                            <img src={listOfDiagramsImg[3]} alt="Diagrama de entidade e relacionamento" />
                         </div>
                     </a>
                 </div>
