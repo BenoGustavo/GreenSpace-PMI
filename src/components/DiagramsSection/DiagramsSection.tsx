@@ -64,7 +64,7 @@ const DiagramsSection = () => {
                     <div className="title">
                         <h3>Entidade relacionamento</h3>
                     </div>
-                    <a href={entityRelationshipDiagram} target="_blank" no-referrer >
+                    <a href={entityRelationshipDiagram} target="_blank" rel="noopener noreferrer">
                         <div className="img-container">
                             <img src={listOfDiagramsImg[3]} alt="Diagrama de entidade e relacionamento" />
                         </div>
